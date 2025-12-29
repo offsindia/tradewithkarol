@@ -78,12 +78,21 @@ body {
     object-fit: cover;
 }
 
+/* ================= CENTER CTA ================= */
+.center-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    position: relative;
+    z-index: 10;
+}
+
 /* ================= HERO ================= */
 .hero {
     background: linear-gradient(135deg, #071a2f, #0b2d4f);
     color: #fff;
     padding: 80px 20px 50px;
-    margin-top: -50px;
+    margin-top: -40px;
     border-radius: 18px;
     text-align: center;
 }
@@ -210,7 +219,7 @@ body {
 
     .hero {
         padding: 70px 16px 40px;
-        margin-top: -40px;
+        margin-top: -30px;
         border-radius: 14px;
     }
 
@@ -240,9 +249,14 @@ body {
             <img src="logo.jpg" alt="Profile Photo">
         </div>
     </div>
-<a class="cta-btn" href="https://t.me/+_SLlp6RAMGBjOGU9" target="_blank">
+
+    <!-- CENTER BUTTON (FIXED) -->
+    <div class="center-cta">
+        <a class="cta-btn" href="https://t.me/+_SLlp6RAMGBjOGU9" target="_blank">
             Join Telegram Channel
         </a>
+    </div>
+
     <!-- HERO -->
     <div class="hero">
         <h1>TRADING WITH KAROL<br><span>(SEBI REGISTERED)</span></h1>
@@ -312,4 +326,3 @@ body {
 
 </body>
 </html>
-
